@@ -16,6 +16,7 @@
 -   [Bridge](src/main/java/dev/alexengrig/designpatterns/structural/bridge)
 -   [Composite](src/main/java/dev/alexengrig/designpatterns/structural/composite)
 -   [Decorator](src/main/java/dev/alexengrig/designpatterns/structural/decorator)
+-   [Facade](src/main/java/dev/alexengrig/designpatterns/structural/facade)
 
 ### Resource
 
