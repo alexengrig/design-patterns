@@ -3,6 +3,7 @@ package dev.alexengrig.designpatterns.creational.singleton;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
+import java.util.concurrent.TimeoutException;
 
 public class SingletonMain {
     public static void main(String[] args) throws InterruptedException {
@@ -14,6 +15,8 @@ public class SingletonMain {
         executorService.execute(() -> SingletonByEnum.INSTANCE.print("Enum is power!"));
         executorService.execute(() -> SingletonByEnum.INSTANCE.print("Enum is super!"));
         executorService.shutdown();
-        executorService.awaitTermination(3, TimeUnit.SECONDS);
+        if (!executorService.awaitTermination(3, TimeUnit.SECONDS)) {
+            executorService.shutdownNow();
+        }
     }
 }
