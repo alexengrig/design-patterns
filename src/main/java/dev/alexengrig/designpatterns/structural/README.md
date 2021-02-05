@@ -9,3 +9,4 @@ into larger structures while keeping these structures flexible and efficient.
 -   [Decorator](decorator)
 -   [Facade](facade)
 -   [Flyweight](flyweight)
+-   [Proxy](proxy)
