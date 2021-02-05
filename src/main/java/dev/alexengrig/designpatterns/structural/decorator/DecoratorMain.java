@@ -2,12 +2,9 @@ package dev.alexengrig.designpatterns.structural.decorator;
 
 public class DecoratorMain {
     public static void main(String[] args) {
-        ComboNotifier notifier = new ComboNotifier();
-        notifier.enableSlack();
-        notifier.notify("Hello, world!");
-        notifier.disableSlack();
-        notifier.enableTelegram();
-        notifier.notify("How are you?");
-        notifier.disableTelegram();
+        Notifier consoleNotifier = new ConsoleNotifier();
+        consoleNotifier.notify("This is console notifier");
+        Notifier withTimeNotifier = new WithTimeNotifier(consoleNotifier);
+        withTimeNotifier.notify("This is console notifier with time");
     }
 }
