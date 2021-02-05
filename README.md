@@ -18,7 +18,7 @@
 -   [Decorator](src/main/java/dev/alexengrig/designpatterns/structural/decorator)
 -   [Facade](src/main/java/dev/alexengrig/designpatterns/structural/facade)
 
-### Resource
+## Resources
 
 -   [Refactoring Guru](https://refactoring.guru)
 -   [Java Design Patterns](https://java-design-patterns.com/patterns/)
