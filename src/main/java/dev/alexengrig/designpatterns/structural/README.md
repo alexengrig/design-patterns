@@ -8,3 +8,4 @@ into larger structures while keeping these structures flexible and efficient.
 -   [Composite](composite)
 -   [Decorator](decorator)
 -   [Facade](facade)
+-   [Flyweight](flyweight)

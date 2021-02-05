@@ -16,6 +16,7 @@
 -   [Composite](src/main/java/dev/alexengrig/designpatterns/structural/composite)
 -   [Decorator](src/main/java/dev/alexengrig/designpatterns/structural/decorator)
 -   [Facade](src/main/java/dev/alexengrig/designpatterns/structural/facade)
+-   [Flyweight](src/main/java/dev/alexengrig/designpatterns/structural/flyweight)
 
 ## Resources
 
