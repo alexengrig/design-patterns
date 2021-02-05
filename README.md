@@ -9,7 +9,7 @@
 -   [Prototype](src/main/java/dev/alexengrig/designpatterns/creational/prototype)
 -   [Singleton](src/main/java/dev/alexengrig/designpatterns/creational/singleton)
 
-## Structural
+## [Structural](src/main/java/dev/alexengrig/designpatterns/structural)
 
 -   [Adapter](src/main/java/dev/alexengrig/designpatterns/structural/adapter)
 -   [Bridge](src/main/java/dev/alexengrig/designpatterns/structural/bridge)
