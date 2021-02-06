@@ -21,6 +21,8 @@
 
 ## [Behavioral](src/main/java/dev/alexengrig/designpatterns/behavioral)
 
+-   [Chain of Responsibility](src/main/java/dev/alexengrig/designpatterns/behavioral/chainofresponsibility)
+
 ## Resources
 
 -   [Refactoring Guru](https://refactoring.guru)
