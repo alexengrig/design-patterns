@@ -19,6 +19,8 @@
 -   [Flyweight](src/main/java/dev/alexengrig/designpatterns/structural/flyweight)
 -   [Proxy](src/main/java/dev/alexengrig/designpatterns/structural/proxy)
 
+## [Behavioral](src/main/java/dev/alexengrig/designpatterns/behavioral)
+
 ## Resources
 
 -   [Refactoring Guru](https://refactoring.guru)
