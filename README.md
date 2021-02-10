@@ -23,6 +23,7 @@
 
 -   [Chain of Responsibility](src/main/java/dev/alexengrig/designpatterns/behavioral/chainofresponsibility)
 -   [Command](src/main/java/dev/alexengrig/designpatterns/behavioral/command)
+-   [Observer](src/main/java/dev/alexengrig/designpatterns/behavioral/observer)
 
 ## Resources
 

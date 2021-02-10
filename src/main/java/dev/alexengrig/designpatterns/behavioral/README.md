@@ -4,3 +4,4 @@ These patterns are concerned with algorithms, and the assignment of responsibili
 
 -   [Chain of Responsibility](chainofresponsibility)
 -   [Command](command)
+-   [Observer](observer)
